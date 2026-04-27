@@ -1,23 +1,21 @@
-# Environment variables (VERY IMPORTANT)
-.env
-
 # Python
 __pycache__/
 *.pyc
 
 # Virtual environments
-.venv/
-venv/
-env/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS files
-.DS_Store
-
-# Ignore virtual environments
 venv/
 .venv/
 env/
 */venv*/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+venv311/
+__pycache__/
+*.pyc
+.env
